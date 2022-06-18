@@ -22,6 +22,19 @@ public static void main(String[] args) {
 		b) Traverse through each index from length-1 -> 0 (using loop in reverse direction)
 		c) Find the character of the String using its index
 		*/
+	
+	
+	String test = "feeling good";
+
+				
+
+				int length=test.length();
+			
+			for(int i=test.length()-1;i>=0;i--){
+				char charAt =test.charAt(i);
+				System.out.println(charAt);
+		
+		
 		
 	}
 
